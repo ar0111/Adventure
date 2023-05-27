@@ -10,6 +10,10 @@
     /* margin: 20px; */
 }
 
+img{
+    max-width: 100%;
+}
+
 header{
     background-image: url("../images/dawn.jpg");
     background-repeat: no-repeat;
@@ -71,7 +75,12 @@ header{
     font-weight: 400;
     font-style: italic;
 }
-.container-item-2 h1{margin-bottom: 20px;font-size: 40px;font-weight: 500;}
+.container-item-2 h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
 .container-item-2 button{
     padding: 15px;
     background-color: #ff006a;
@@ -80,3 +89,78 @@ header{
     border: none;
     border-radius: 10px;
 }
+
+.events{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.headlines{
+    /* margin-bottom: 20px; */
+    /* text-align: center; */
+} 
+.headlines h2{} 
+.headlines span{
+    width: 100px;
+    height: 6px;
+    background-color: red;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+} 
+.card{
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+} 
+.card .card-1{
+    /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+} 
+.card .card-1 img{
+    width: 400px;
+    height: 300px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.363);
+} 
+.card .card-1 h2{
+    /* margin: 0 50px; */
+    margin-top: 10px;
+} 
+.card .card-1 p{
+    max-width: 60%;
+    margin: 0 auto;
+    /* text-align: center; */
+} 
+.card .card-1 button{
+    position: ceter;
+    /* margin-left: 140px; */
+    margin-top: 10px;
+    color: red;
+    background-image: transparent;
+    background: transparent;
+    border: none;
+} 
+
+.card .card-2{} 
+.card .card-2 img{
+    width: 400px;
+    height: 300px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.37);
+} 
+.card .card-2 h2{
+    /* margin: 0 50px; */
+    margin-top: 10px;
+} 
+.card .card-2 p{
+    max-width: 60%;
+    /* text-align: center; */
+    margin: 0 auto;
+} 
+.card .card-2 button{
+    position: ceter;
+    /* margin-left: 140px; */
+    margin-top: 10px;
+    color: red;
+    background-image: transparent;
+    background: transparent;
+    border: none;
+} 
