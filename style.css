@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    /* margin: 20px; */
 }
 
 img{
@@ -61,7 +60,6 @@ header{
     height: 6px;
     background-color: red;
     display: inline-block;
-    /* margin: 20px; */
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -95,7 +93,6 @@ header{
     text-align: center;
 }
 
-.headlines h2{} 
 .headlines span{
     width: 100px;
     height: 6px;
@@ -178,7 +175,6 @@ header{
     height: 6px;
     background-color: red;
     display: inline-block;
-    /* margin: 20px; */
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -203,7 +199,6 @@ header{
     height: 6px;
     background-color: red;
     display: inline-block;
-    /* margin: 20px; */
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -215,13 +210,11 @@ header{
 }
 .images-1{
     width: 33%;
-    /* margin: auto; */
 }
 .small{
     width: 100%;
     height: 300px;
     padding: 10px;
-    /* margin: auto; */
 }
 .large{
     width: 100%;
@@ -230,4 +223,153 @@ header{
 }
 .images-2{
     width: 33%;
+}
+
+/* Mobile Website Max Width-425px */
+
+@media only screen and (max-width: 425px){
+    .container{
+        max-width: 400px;
+    }
+    .container-item-1{
+        display: block;
+        padding: 20px 0;
+    }
+    .container-item-1 h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .container-item-1 h2 span{
+        font-size: 14px;
+    }
+    
+    .container-item-1 nav li{
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .container-item-2{
+        text-align: center;
+        padding: 20px;
+    }
+    .container-item-2 h2{
+        font-size: 20px;
+    }
+    .container-item-2 h1{
+        font-size: 30px;
+    }
+    
+    .container-item-2 button{
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .headlines h2{
+        font-size: 20px;
+    }
+
+    .card{
+        display: block;
+    } 
+
+    .card .card-1 h2{
+        margin-top: 20px;
+    } 
+
+    .card .card-1 button{
+        margin: 10px 0;
+    } 
+
+    .card .card-2 h2{
+        margin-top: 20px;
+    } 
+
+    .card .card-2 button{
+        margin: 10px 0;
+    } 
+
+    .explore{
+        padding: 150px 0;
+        justify-content: center;
+    }
+  
+    .explore .contents h2{
+        font-size: 30px;
+    }
+
+    .destination-items{
+        margin: 20px 0;
+        display: block;
+    }
+    .details{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .details h2{
+        font-size: 20px;
+    }
+
+    .images-1{
+        width: 100%;
+    }
+
+    .images-2{
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 768px){
+    .container{
+        width: 650px;
+    }
+
+    .container-item-2{
+        padding: 100px;
+    }
+
+    .container-item-2 h1{
+        font-size: 30px;
+    }
+    
+    .container-item-2 button{
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    .card .card-1 img{
+        width: 300px;
+        height: 200px;
+    } 
+    .card .card-1 h2{
+        margin-top: 20px;
+    } 
+    
+    .card .card-2 img{
+        width: 300px;
+        height: 200px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.37);
+    } 
+    .card .card-2 h2{
+        margin-top: 20px;
+    } 
+
+    .images-1{
+        width: 33%;
+    }
+    .small{
+        width: 100%;
+        height: 250px;
+        padding: 10px;
+    }
+    .large{
+        width: 100%;
+        height: 300px;
+        padding: 10px;
+    }
+    .images-2{
+        width: 33%;
+    }
+
 }
